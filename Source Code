@@ -58,7 +58,7 @@ while True:
                                 for i in range(len(k)):
                                     k[i] = 0
                     
-            #cv2.putText(imgg, text, (100,120), cv2.FONT_HERSHEY_TRIPLEX, 3, (0,0,0), 5)
+            cv2.putText(imgg, text, (100,120), cv2.FONT_HERSHEY_TRIPLEX, 3, (0,0,0), 5)
             mpDraw.draw_landmarks(imgg, handLms, mpHands.HAND_CONNECTIONS)
 
     else:
